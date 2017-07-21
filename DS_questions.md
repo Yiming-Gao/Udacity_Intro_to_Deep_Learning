@@ -16,7 +16,7 @@ Can this happen? Why?
 
 Time series data is known to posses *linearity*. On the other hand, a decision tree algorithm is known to work best to detect *non – linear* interactions. The reason why decision tree failed to provide robust predictions because it couldn’t map the linear relationship as good as a regression model did. Therefore, we learned that, a linear regression model can provide robust prediction given the data set satisfies its linearity assumptions.
 
-### While working on a data set, how do you select important variables? Explain your methods.
+### 4. While working on a data set, how do you select important variables? Explain your methods.
 
 - Remove the correlated variables prior to selecting important variables
 - Use linear regression and select variables based on p values
