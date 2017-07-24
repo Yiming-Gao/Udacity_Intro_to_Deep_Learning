@@ -54,3 +54,6 @@ Linear Regression uses Ordinary Least Squares method to minimize the errors and 
 While feature selection and dimensionality reduction both have the effect of feeding a lower number of features, feature selection techniques (like regularization) are an exercise in finding (and selecting) those features that are significant when it comes to signaling a given target variable.  Dimensionality reduction on the other hand, blindly reduces the count of features (dimensions) that are being used, without paying attention to their effect in predicting a given target variable.  
 
 It is entirely possible that in some circumstances one might use SVD to identify and drop information captured by certain lower variance features that could have been very significant when it came to classifying a certain target variable. 
+
+### 7. Explain bagging.
+Bagging, or Bootstrap Aggregating, is an ensemble method in which the dataset is first divided into multiple subsets through resampling. Then, each subset is used to train a model, and the final predictions are made through voting or averaging the component models. Bagging is performed in parallel.
