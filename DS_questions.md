@@ -57,3 +57,8 @@ It is entirely possible that in some circumstances one might use SVD to identify
 
 ### 7. Explain bagging.
 Bagging, or Bootstrap Aggregating, is an ensemble method in which the dataset is first divided into multiple subsets through resampling. Then, each subset is used to train a model, and the final predictions are made through voting or averaging the component models. Bagging is performed in parallel.
+
+### 8. How can you choose a classifier based on training set size?
+If training set is small, high bias / low variance models (e.g. Naive Bayes) tend to perform better because they are less likely to be overfit.
+
+If training set is large, low bias / high variance models (e.g. Logistic Regression) tend to perform better because they can reflect more complex relationships.
