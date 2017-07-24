@@ -50,3 +50,7 @@ In linear regression, the coefficient interpretation of independent variables ar
 
 Linear Regression uses Ordinary Least Squares method to minimize the errors and arrive at a best possible fit. While logistic regression uses maximum likelihood method to arrive at the solution.
 
+### 6. Is dimensionality reduction the same as feature selection? Why?
+While feature selection and dimensionality reduction both have the effect of feeding a lower number of features, feature selection techniques (like regularization) are an exercise in finding (and selecting) those features that are significant when it comes to signaling a given target variable.  Dimensionality reduction on the other hand, blindly reduces the count of features (dimensions) that are being used, without paying attention to their effect in predicting a given target variable.  
+
+It is entirely possible that in some circumstances one might use SVD to identify and drop information captured by certain lower variance features that could have been very significant when it came to classifying a certain target variable. 
