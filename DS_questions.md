@@ -23,3 +23,24 @@ Time series data is known to posses *linearity*. On the other hand, a decision t
 - Use Forward Selection, Backward Selection, Stepwise Selection
 - Use Random Forest, Xgboost and plot variable importance chart
 - Measure information gain for the available set of features and select top n features accordingly.
+
+### 5. What’re the differences between logistic regression and linear regression?
+
+***Linear regression output as probabilities***
+It's tempting to use the linear regression output as probabilities but it's a mistake because the output can be negative, and greater than 1 whereas probability cannot. As regression might actually produce probabilities that could be less than 0, or even bigger than 1, logistic regression was introduced.
+
+***Outcome***
+In linear regression, the outcome (dependent variable) is continuous. It can have any one of an infinite number of possible values. In logistic regression, the outcome (dependent variable) has only a limited number of possible values.
+
+***The dependent variable***
+Logistic Regression is used when response variable is categorical in nature. Linear Regression is used when your response variable is continuous.
+
+***Equation***
+Linear Regression gives an equation which is of the form Y = mX + C, means equation with degree 1.However, Logistic Regression gives an equation which is of the form Y = e^X/1 + e^-X (there is a logistic function)
+
+***Coefficient interpretation***
+In linear regression, the coefficient interpretation of independent variables are quite straight forward. However in logistic regression, depends on the family (binomial, poisson, etc.) and link (log, logit, inverse-log, etc.) you use, the interpretation is different.
+
+***Error Minimization Technique***
+Linear Regression uses Ordinary Least Squares method to minimize the errors and arrive at a best possible fit. While logistic regression uses maximum likelihood method to arrive at the solution.
+
