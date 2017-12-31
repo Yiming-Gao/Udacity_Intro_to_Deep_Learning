@@ -71,3 +71,16 @@ At the highest level, the coefficients are a function of ***minimizing the sum o
 2. Solve the minimization equation by illustrating that the sum of square of the residuals is a convex function, which can be differentiated and the coefficients can be derived by setting the differentiation to 0 and solving that equation.
 
 3. Describe that the complexity of solving the linear algebra based solution in #2 is of **polynomial time** and a more common solution is by observing that the equation is **convex** and hence **numerical algorithms** such as gradient descent may be much more efficient.
+
+### 10. (EZ) What does P-value signify about the statistical data?
+P-values is used to determine the significance of results after a hypothesis test in statistics. 
+
+定义：the probability of finding the observed, or more extreme, results when the null hypothesis of a study question is true. 适用情形：when you want to know whether a model result that appears interesting and useful is **within the range of normal chance variability**.
+
+- P- Value > 0.05 denotes weak evidence against the null hypothesis which means the null hypothesis cannot be rejected.
+- P-value <= 0.05 denotes strong evidence against the null hypothesis which means the null hypothesis can be rejected.
+- P-value=0.05 is the marginal value indicating it is possible to go either way.
+
+
+
+
