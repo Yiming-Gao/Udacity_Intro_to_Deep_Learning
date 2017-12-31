@@ -106,4 +106,4 @@ The CLT states that the arithmetic mean of a sufficiently large number of iterat
 ### 13. (ML) What is the advantages of ReLU over sigmoid function?
 Sigmoid function has the problem of vanish（突然变为零） gradient because the gradient of sigmoid becomes increasingly small as the absolute value of x increases. But ReLU can **reduce the likelihood** of the gradient **to vanish** and the constant gradient of ReLU when x>0 will **result in faster learning**.
 
-Another advantage of ReLU is **sparsity**, which arises when x<=0. The more such units that exist in a layer, the more sparse the result representation.
+Another advantage of ReLU is **sparsity**, which arises when x<=0. The more such units that exist in a layer, the more sparse the result representation. Sigmoids on the other hand are always likely to generate some non-zero value resulting in dense representations. Sparse representations seem to be more beneficial than dense representations.
