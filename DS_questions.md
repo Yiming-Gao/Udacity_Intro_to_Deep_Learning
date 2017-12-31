@@ -90,6 +90,12 @@ They are not different but the terms are used in **different contexts**. Mean is
 
 - For distributions: Mean value and expected value are samoe irrespective of the distribution, under the condition that the distribution is in the same population.
 
-### 12. How do you understand the term Normal Distribution?如何理解正态分布？
+### 12. (EZ) How do you understand the term Normal Distribution?如何理解正态分布？
 Data is usually distributed in different ways with a bias to the left or to the right or it can all be jumbled up. However, there are chances that the data is distributed **around a central value** without any bias to the left or right, and reaches normal distribution in **the form of a bell shaped curve**. The random variables are distributed in the form of **an symmetrical bell shaped curve**.
 
+### 13. (EZ & Important) What is the Central Limit Theorem? Explain it. Why is it important? 解释中心极限定理
+The CLT states that the arithmetic mean of a sufficiently large number of iterates of independent random variables will be approximately normally distributed regardless of the underlying distribution. i.e., the sampling distribution of the sample mean is normally distributed.
+
+用处：
+
+- U
