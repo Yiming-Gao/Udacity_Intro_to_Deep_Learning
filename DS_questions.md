@@ -62,3 +62,12 @@ Bagging, or Bootstrap Aggregating, is an ensemble method in which the dataset is
 If training set is small, high bias / low variance models (e.g. Naive Bayes) tend to perform better because they are less likely to be overfit.
 
 If training set is large, low bias / high variance models (e.g. Logistic Regression) tend to perform better because they can reflect more complex relationships.
+
+### 9. How does the Linear Regression algorithm figure out what are the best coefficient values? (This was a question asked in C3 Energy’s Data Scientist interview)
+At the highest level, the coefficients are a function of ***minimizing the sum of square of the residuals***. Next, write down these equations while paying careful attention to what is a residual. To go further, consider the following:
+
+1. Write the minimization goal (ideally in linear algebraic (matrix) notation) of minimizing the sum of squares of the residuals given a linear regression model.
+
+2. Solve the minimization equation by illustrating that the sum of square of the residuals is a convex function, which can be differentiated and the coefficients can be derived by setting the differentiation to 0 and solving that equation.
+
+3. Describe that the complexity of solving the linear algebra based solution in #2 is of **polynomial time** and a more common solution is by observing that the equation is **convex** and hence **numerical algorithms** such as gradient descent may be much more efficient.
