@@ -81,6 +81,15 @@ P-values is used to determine the significance of results after a hypothesis tes
 - P-value <= 0.05 denotes strong evidence against the null hypothesis which means the null hypothesis can be rejected.
 - P-value=0.05 is the marginal value indicating it is possible to go either way.
 
+### 11. Are expected value and mean value different?期望和均值有区别吗？
+They are not different but the terms are used in **different contexts**. Mean is generally referred when talking **distribution or sample population** while expected value is generally referred in a **random variable context**.
 
+- For sampling data
+  - Mean is the only value that comes from the sampling data
+  - Expected value is the mean of all the means, i.e., the value that is built from multiple samples. Expected value is the population mean.
 
+- For distributions: Mean value and expected value are samoe irrespective of the distribution, under the condition that the distribution is in the same population.
+
+### 12. How do you understand the term Normal Distribution?如何理解正态分布？
+Data is usually distributed in different ways with a bias to the left or to the right or it can all be jumbled up. However, there are chances that the data is distributed **around a central value** without any bias to the left or right, and reaches normal distribution in **the form of a bell shaped curve**. The random variables are distributed in the form of **an symmetrical bell shaped curve**.
 
