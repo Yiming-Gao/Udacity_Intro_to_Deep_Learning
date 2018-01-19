@@ -107,3 +107,11 @@ The CLT states that the arithmetic mean of a sufficiently large number of iterat
 Sigmoid function has the problem of vanish（突然变为零） gradient because the gradient of sigmoid becomes increasingly small as the absolute value of x increases. But ReLU can **reduce the likelihood** of the gradient **to vanish** and the constant gradient of ReLU when x>0 will **result in faster learning**.
 
 Another advantage of ReLU is **sparsity**, which arises when x<=0. The more such units that exist in a layer, the more sparse the result representation. Sigmoids on the other hand are always likely to generate some non-zero value resulting in dense representations. Sparse representations seem to be more beneficial than dense representations.
+
+
+### How will you define the number of clusters in a clustering algorithm?
+The objective of clustering is to group similar entities in a way that entities within a group are similar to each other, but the groups are different from each other.
+
+Within Sum of Squares is generally used to explain the homogeneity within a cluster. If you plot WSS versus the number of clusters, you will get an Elbow curve. We can then choose k after which we don't see any decrements in WSS.
+
+Some data scientists also use hierarchical clustering first to create dendrograms and identify the distinct groups from there.
