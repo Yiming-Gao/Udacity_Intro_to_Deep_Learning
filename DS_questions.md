@@ -1,4 +1,4 @@
-### 1. What are the advantages and disadvantages of neural networks?
+### 1. What are the advantages and disadvantages of KNN?
 
 Advantages: K-Nearest Neighbors have a nice intuitive explanation, and then tend to work very well for problems where comparables are inherently indicative. For example, you could build a kNN housing price model by modeling on other houses in the area with similar number of bedrooms, floor space, etc.
 
@@ -144,3 +144,14 @@ In statistics, point estimate involves the use of sample data to calculate a sin
 - Median-unbiased estimator
 - Maximum likelihood (ML)
 - Method of moments, generalized method of moments
+
+### 18. (DL) Describe what is the Artificial Neural Network?
+An ANN is a computational model. It is based on the structure and functions of biological neural networks. It works like the way human brain processes information. It includes a large number of connected processing units that work together to process information, which can generate meaningful results.
+
+### 19. (Dimensionality Reduction) Random Projection vs. PCA
+相同: Both are defining a projection from a high-dimensional space into a low-dimensional space -- picking a small set of basis vectors in the high-dimensional space that can be used as a basis (to "explain") the data in the low-dimensional space. 
+
+区别：The major difference is that PCA is trying hard to pick the "best" basis vectors by looking for directions in which the original data varies most. Random projection is picking the directions randomly!
+- Random Projection runs much faster than PCA with very high dimensions
+- In general PCA works well on relatively low dimensional data
+
