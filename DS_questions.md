@@ -148,10 +148,34 @@ In statistics, point estimate involves the use of sample data to calculate a sin
 ### 18. (DL) Describe what is the Artificial Neural Network?
 An ANN is a computational model. It is based on the structure and functions of biological neural networks. It works like the way human brain processes information. It includes a large number of connected processing units that work together to process information, which can generate meaningful results.
 
-### 19. (Dimensionality Reduction) Random Projection vs. PCA
+### 19. (Dimensionality Reduction) What is Random Projection?
+- It is an unsupervised machine learning method for reducing the dimensions
+- It creates a minimum reduced dimension k which can make the new pairwise data distance preserved within an accepted error compared to the original pairwise data distance.
+
+### 20. (Dimensionality Reduction) Basic Steps to do PCA.
+- Standardize the data
+- Obtain the eigenvectors and eigenvalues from the covariance matrix or correlation matrix, or perform Singular Vector Decomposition.
+- Sort eigenvalues in descending order and choose the k eigenvalues where k is the number of dimensions of the new feature subspace (k << d)
+- Construct the projection matrix W from the selected k eigenvectors.
+- Transform the original dataset X via W to obtain a k-dimensional feature subspace Y
+
+### 21. (Dimensionality Reduction) Random Projection vs. PCA
 相同: Both are defining a projection from a high-dimensional space into a low-dimensional space -- picking a small set of basis vectors in the high-dimensional space that can be used as a basis (to "explain") the data in the low-dimensional space. 
 
 区别：The major difference is that PCA is trying hard to pick the "best" basis vectors by looking for directions in which the original data varies most. Random projection is picking the directions randomly!
 - Random Projection runs much faster than PCA with very high dimensions
 - In general PCA works well on relatively low dimensional data
 
+### 22. (ML算法) Give some classification situations where you will use an SVM over a RF and vice versa.
+- When the data is outlier free and clean then go for SVM. If your data might contain outliers then RF would be the best choice.
+- Generally, SVM consumes more computational power than Random Forest, so if you're constrained with memory go for Random Forest.
+- Random Forest gives you a very good idea of **variable importance** in your data. If you want to have variable importance, then go for RF.
+- RF is preferred for multiclass problems.
+- SVM is preferred in high-dimensional problem set - like text classification.
+
+### 23. 基本定义Bagging
+Bagging, or Bootstrap Aggregating, is an ensemble method in which the dataset is first divided into multiple subsets through resampling. Then, each subset is used to train a model, and the final predictions are made through voting or averaging the component models. Bagging is performed in parallel.
+
+### 24. How can you choose a classifier based on training set size?
+- If training set is **small**, high bias/ low variance models (e.g. Naive Bayes) tend to perform better because they are less likely to overfit.
+- If training set is **large**, low bias/ high variance models （e.g. Logistic Regression) tend to perform better because they can reflect more complex relationships.
