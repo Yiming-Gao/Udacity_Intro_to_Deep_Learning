@@ -109,9 +109,19 @@ Sigmoid function has the problem of vanish（突然变为零） gradient because
 Another advantage of ReLU is **sparsity**, which arises when x<=0. The more such units that exist in a layer, the more sparse the result representation. Sigmoids on the other hand are always likely to generate some non-zero value resulting in dense representations. Sparse representations seem to be more beneficial than dense representations.
 
 
-### How will you define the number of clusters in a clustering algorithm?
+### 14. How will you define the number of clusters in a clustering algorithm?
 The objective of clustering is to group similar entities in a way that entities within a group are similar to each other, but the groups are different from each other.
 
 Within Sum of Squares is generally used to explain the homogeneity within a cluster. If you plot WSS versus the number of clusters, you will get an Elbow curve. We can then choose k after which we don't see any decrements in WSS.
 
 Some data scientists also use hierarchical clustering first to create dendrograms and identify the distinct groups from there.
+
+### 15. How do you treat missing values?
+First we need to identify patterns. If any patterns are identified with some variables, it could lead to interesting and meaningful business insights.
+
+- **Remove rows with missing values** - this works if 
+  - the values are missing randomly
+  - if you don't lose too much of the dataset
+ 
+- **Build another predictive model to predict the missing values**
+- **Use a model that can incorporate missing data** - Like a random forest, or any tree-based method
