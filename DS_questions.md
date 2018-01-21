@@ -125,3 +125,22 @@ First we need to identify patterns. If any patterns are identified with some var
  
 - **Build another predictive model to predict the missing values**
 - **Use a model that can incorporate missing data** - Like a random forest, or any tree-based method
+
+
+### 16. How do you understand by statistical power of sensitivity and how do you calculate it?
+**Sensitivity (Recall)**: TP/ (TP + FN)
+
+Sensitivity is used to validate the accuracy of a classifier, which is the "Predicted TRUE events"/ Total events.
+
+**Specificity**: TN / (TN + FP)
+
+**Precision**: TP/ (TP + FP)
+
+### 17. What is a point estimate?
+In statistics, point estimate involves the use of sample data to calculate a single statistic which is to serve as a "best guess" or "best estimate" of an unknown parameter. There are a variety of point estimators, each with different properties.
+- Minimum-variance mean-unbiased estimator (MVUE)
+- Best linear unbiased estimator (BLUE)
+- Minimum mean square error (MMSE)
+- Median-unbiased estimator
+- Maximum likelihood (ML)
+- Method of moments, generalized method of moments
