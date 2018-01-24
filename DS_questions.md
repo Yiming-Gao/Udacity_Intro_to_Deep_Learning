@@ -1,4 +1,4 @@
-### 1. What are the advantages and disadvantages of KNN?
+### 1. What are the advantages and disadvantages of K-NN?
 
 Advantages: K-Nearest Neighbors have a nice intuitive explanation, and then tend to work very well for problems where comparables are inherently indicative. For example, you could build a kNN housing price model by modeling on other houses in the area with similar number of bedrooms, floor space, etc.
 
