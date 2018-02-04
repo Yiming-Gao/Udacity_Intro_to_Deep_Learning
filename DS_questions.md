@@ -187,3 +187,10 @@ In statistics, a confidence interval is a type of interval estimate that is comp
 The confidence level is the frequency (i.e., the proportion) of possible confidence intervals that contain the true value of their corresponding parameter. Confidence intervals consist of a range of values (interval) that act as good estimates of the unknown population parameter. 
 
 The desired level of confidence is set by the researcher (not determined by data). Most commonly, the 95% confidence level is used.However, other confidence levels can be used, for example, 90% and 99%.
+
+### 26. Explain what a long-tailed distribution is and provide three examples of relevant phenomena that have long tails. Why are they important in classification and regression problems?
+In a skewed distribution with a long tail, **a high frequency population is followed by a low frequency population, which gradually tails off asymptotically.** (Example: Natural Language)
+
+Rule of thumb: majority of occurrences (more than half, and when Pareto principles applies, 80%) are accounted for by the first 20% items in the distribution. The least frequently occurring 80% of items are more important as a proportion of the total population.
+
+In classification and regression problems, this is a issue when using models that make assumptions on the linearity and need to apply a monotone transformation on the data (logarithm…). When sampling, the data will become even more unbalanced. 
