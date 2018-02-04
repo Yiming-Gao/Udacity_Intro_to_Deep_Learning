@@ -179,3 +179,11 @@ Bagging, or Bootstrap Aggregating, is an ensemble method in which the dataset is
 ### 24. How can you choose a classifier based on training set size?
 - If training set is **small**, high bias/ low variance models (e.g. Naive Bayes) tend to perform better because they are less likely to overfit.
 - If training set is **large**, low bias/ high variance models （e.g. Logistic Regression) tend to perform better because they can reflect more complex relationships.
+
+
+### 25. 置信区间What is confidence interval?
+In statistics, a confidence interval is a type of interval estimate that is computed from the observed data. **A confidence interval gives an estimated range of values which is likely to include an unknown population parameter, the estimated range being calculated from a given set of sample data. **
+
+The confidence level is the frequency (i.e., the proportion) of possible confidence intervals that contain the true value of their corresponding parameter. Confidence intervals consist of a range of values (interval) that act as good estimates of the unknown population parameter. 
+
+The desired level of confidence is set by the researcher (not determined by data). Most commonly, the 95% confidence level is used.However, other confidence levels can be used, for example, 90% and 99%.
