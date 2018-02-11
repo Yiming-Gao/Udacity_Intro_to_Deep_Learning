@@ -195,6 +195,11 @@ Rule of thumb: majority of occurrences (more than half, and when Pareto principl
 
 In classification and regression problems, this is a issue when using models that make assumptions on the linearity and need to apply a monotone transformation on the data (logarithm…). When sampling, the data will become even more unbalanced. 
 
+### 27. What's the loss function log-loss?
+Log Loss is an evaluation metric used in logistic regression and extensions of it, such as neural networks, defined as the negative log-likelihood of the true labels given a probabilistic classifier's predictions.
+
+
+
 # Python Coding
 ### 1. Write the code to sort an array in NumPy by the nth column?
 Using **argsort()** function this can be achieved. If there is an array X and you would like to sort the nth column then code for this will be X[X[:n - 1].argsort()].
