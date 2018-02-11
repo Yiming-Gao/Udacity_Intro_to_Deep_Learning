@@ -194,3 +194,7 @@ In a skewed distribution with a long tail, **a high frequency population is foll
 Rule of thumb: majority of occurrences (more than half, and when Pareto principles applies, 80%) are accounted for by the first 20% items in the distribution. The least frequently occurring 80% of items are more important as a proportion of the total population.
 
 In classification and regression problems, this is a issue when using models that make assumptions on the linearity and need to apply a monotone transformation on the data (logarithm…). When sampling, the data will become even more unbalanced. 
+
+# Python Coding
+### 1. Write the code to sort an array in NumPy by the nth column?
+Using **argsort()** function this can be achieved. If there is an array X and you would like to sort the nth column then code for this will be X[X[:n - 1].argsort()].
